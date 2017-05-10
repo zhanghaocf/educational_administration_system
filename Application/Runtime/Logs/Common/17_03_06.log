@@ -1,0 +1,12 @@
+[ 2017-03-06T15:52:04+08:00 ] ::1 /ZH/educational_administration_system/index.phptrue
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+ERR: 无法加载模块:Index
+
+[ 2017-03-06T15:53:28+08:00 ] ::1 /ZH/educational_administration_system/index.phptrue
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+ERR: 无法加载模块:Index
+

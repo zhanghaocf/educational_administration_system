@@ -1,0 +1,48 @@
+[ 2017-04-29T17:56:05+08:00 ] ::1 /ZH/educational_administration_system/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.168779s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022074s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.027509s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.027585s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.351125s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.351194s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.045053s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.045106s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.089538s ]
+INFO: [ app_end ] --END-- [ RunTime:0.089610s ]
+
+[ 2017-04-29T17:56:06+08:00 ] ::1 /ZH/educational_administration_system/index.php/Home/Index/yanzheng
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000660s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000725s ]
+
+[ 2017-04-29T17:57:03+08:00 ] ::1 /ZH/educational_administration_system/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+SQL: SHOW COLUMNS FROM `edu_login` [ RunTime:0.1629s ]
+SQL: SELECT * FROM `edu_login` WHERE `user` = 'admin' AND `pass` = 'admin' LIMIT 1   [ RunTime:0.0359s ]
+NOTIC: [8] Use of undefined constant q - assumed 'q' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Home\Controller\IndexController.class.php 第 36 行.
+NOTIC: [8] Use of undefined constant q - assumed 'q' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [8] Use of undefined constant q - assumed 'q' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Home\Controller\IndexController.class.php 第 50 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000657s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000700s ]
+

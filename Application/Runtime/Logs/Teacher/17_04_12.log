@@ -1,0 +1,997 @@
+[ 2017-04-12T10:11:13+08:00 ] ::1 /ZH/educational_administration_system/index.php//Teacher/Index/index/name/%E5%87%8C%E5%85%B4%E5%AE%8F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000498s ]
+SQL: SHOW COLUMNS FROM `edu_info` [ RunTime:0.1083s ]
+SQL: SHOW COLUMNS FROM `edu_login` [ RunTime:0.0051s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `edu_info` WHERE `reader` = '040169' LIMIT 1   [ RunTime:0.0415s ]
+SQL: SELECT * FROM `edu_info` WHERE `reader` = '040169' ORDER BY id desc LIMIT 0,5   [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 18 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 19 行.
+SQL: SELECT `name` FROM `edu_login` WHERE `user` = 'admin' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 18 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 19 行.
+SQL: SELECT `name` FROM `edu_login` WHERE `user` = 'admin' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 18 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 19 行.
+SQL: SELECT `name` FROM `edu_login` WHERE `user` = 'admin' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 18 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 19 行.
+SQL: SELECT `name` FROM `edu_login` WHERE `user` = 'admin' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 18 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 19 行.
+SQL: SELECT `name` FROM `edu_login` WHERE `user` = 'admin' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.300713s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.300759s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000975s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001073s ]
+
+[ 2017-04-12T10:11:18+08:00 ] ::1 /ZH/educational_administration_system/index.php/Teacher/Content/grade
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 66 行.
+SQL: SHOW COLUMNS FROM `edu_course` [ RunTime:0.1209s ]
+SQL: SELECT * FROM `edu_course` WHERE `teacherID` = '040169'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `edu_login` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `edu_login`  [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 80 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 82 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 82 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 82 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 80 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 82 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 82 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 82 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 80 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 82 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.096780s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.096852s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000528s ]
+
+[ 2017-04-12T10:11:47+08:00 ] ::1 /ZH/educational_administration_system/index.php/Teacher/Content/gradeDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002130s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 93 行.
+SQL: SELECT * FROM information_schema.tables WHERE table_schema = 'education' AND table_name = 'edu_grade10' [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `edu_course` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `edu_course` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `edu_login` [ RunTime:0.0067s ]
+SQL: SELECT `name` FROM `edu_login` WHERE `user` = '040169' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `edu_login` WHERE `user` = '1317404001' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `edu_login` WHERE `user` = '1317403901' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `edu_login` WHERE `user` = '1317404002' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `edu_login` WHERE `user` = '1317404005' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 126 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 126 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 126 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 126 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 126 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 126 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 126 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 126 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 126 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 126 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 126 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 126 行.
+
+[ 2017-04-12T10:11:52+08:00 ] ::1 /ZH/educational_administration_system/index.php/Teacher/Content/addGrade
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000807s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001667s ]
+SQL: CREATE TABLE `education`.`edu_grade10` ( `id` INT(10) NOT NULL AUTO_INCREMENT , `user` VARCHAR(255) NOT NULL , `name` VARCHAR(255) NOT NULL , `pingshi` FLOAT(50) NOT NULL , `qizhong` FLOAT(50) NOT NULL , `shijian` FLOAT(50) NOT NULL , `qimo` FLOAT(50) NOT NULL , `profession` VARCHAR(255) NOT NULL , `grade` FLOAT(50) NOT NULL , `teacher` VARCHAR(255) NOT NULL , `courseName` VARCHAR(255) NOT NULL , PRIMARY KEY (`id`)) ENGINE = MyISAM CHARACTER SET utf8 COLLATE utf8_general_ci [ RunTime:0.1616s ]
+ERR: :
+ [ SQL语句 ] : CREATE TABLE `education`.`edu_grade10` ( `id` INT(10) NOT NULL AUTO_INCREMENT , `user` VARCHAR(255) NOT NULL , `name` VARCHAR(255) NOT NULL , `pingshi` FLOAT(50) NOT NULL , `qizhong` FLOAT(50) NOT NULL , `shijian` FLOAT(50) NOT NULL , `qimo` FLOAT(50) NOT NULL , `profession` VARCHAR(255) NOT NULL , `grade` FLOAT(50) NOT NULL , `teacher` VARCHAR(255) NOT NULL , `courseName` VARCHAR(255) NOT NULL , PRIMARY KEY (`id`)) ENGINE = MyISAM CHARACTER SET utf8 COLLATE utf8_general_ci
+ERR: :
+ [ SQL语句 ] : CREATE TABLE `education`.`edu_grade10` ( `id` INT(10) NOT NULL AUTO_INCREMENT , `user` VARCHAR(255) NOT NULL , `name` VARCHAR(255) NOT NULL , `pingshi` FLOAT(50) NOT NULL , `qizhong` FLOAT(50) NOT NULL , `shijian` FLOAT(50) NOT NULL , `qimo` FLOAT(50) NOT NULL , `profession` VARCHAR(255) NOT NULL , `grade` FLOAT(50) NOT NULL , `teacher` VARCHAR(255) NOT NULL , `courseName` VARCHAR(255) NOT NULL , PRIMARY KEY (`id`)) ENGINE = MyISAM CHARACTER SET utf8 COLLATE utf8_general_ci
+
+[ 2017-04-12T10:16:17+08:00 ] ::1 /ZH/educational_administration_system/index.php//Teacher/Index/index/name/%E5%87%8C%E5%85%B4%E5%AE%8F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001886s ]
+SQL: SHOW COLUMNS FROM `edu_info` [ RunTime:0.0102s ]
+SQL: SHOW COLUMNS FROM `edu_login` [ RunTime:0.0082s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `edu_info` WHERE `reader` = '040169' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `edu_info` WHERE `reader` = '040169' ORDER BY id desc LIMIT 0,5   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 18 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 19 行.
+SQL: SELECT `name` FROM `edu_login` WHERE `user` = 'admin' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 18 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 19 行.
+SQL: SELECT `name` FROM `edu_login` WHERE `user` = 'admin' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 18 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 19 行.
+SQL: SELECT `name` FROM `edu_login` WHERE `user` = 'admin' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 18 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 19 行.
+SQL: SELECT `name` FROM `edu_login` WHERE `user` = 'admin' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 18 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 19 行.
+SQL: SELECT `name` FROM `edu_login` WHERE `user` = 'admin' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.204325s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.204389s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000981s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004550s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004628s ]
+
+[ 2017-04-12T10:16:24+08:00 ] ::1 /ZH/educational_administration_system/index.php//Teacher/Index/index/name/%E5%87%8C%E5%85%B4%E5%AE%8F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000829s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002148s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002478s ]
+SQL: SHOW COLUMNS FROM `edu_info` [ RunTime:0.0211s ]
+SQL: SHOW COLUMNS FROM `edu_login` [ RunTime:0.0068s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `edu_info` WHERE `reader` = '040169' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `edu_info` WHERE `reader` = '040169' ORDER BY id desc LIMIT 0,5   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 18 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 19 行.
+SQL: SELECT `name` FROM `edu_login` WHERE `user` = 'admin' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 18 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 19 行.
+SQL: SELECT `name` FROM `edu_login` WHERE `user` = 'admin' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 18 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 19 行.
+SQL: SELECT `name` FROM `edu_login` WHERE `user` = 'admin' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 18 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 19 行.
+SQL: SELECT `name` FROM `edu_login` WHERE `user` = 'admin' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 18 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 19 行.
+SQL: SELECT `name` FROM `edu_login` WHERE `user` = 'admin' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.092375s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.092427s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001036s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001064s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002199s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002312s ]
+
+[ 2017-04-12T10:16:27+08:00 ] ::1 /ZH/educational_administration_system/index.php/Teacher/Content/grade
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000880s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001242s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 66 行.
+SQL: SHOW COLUMNS FROM `edu_course` [ RunTime:0.0398s ]
+SQL: SELECT * FROM `edu_course` WHERE `teacherID` = '040169'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `edu_login` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `edu_login`  [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 80 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 82 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 82 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 82 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 80 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 82 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 82 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 82 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 80 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 82 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030415s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030466s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001172s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001199s ]
+
+[ 2017-04-12T10:16:28+08:00 ] ::1 /ZH/educational_administration_system/index.php/Teacher/Content/gradeDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001260s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 93 行.
+SQL: SELECT * FROM information_schema.tables WHERE table_schema = 'education' AND table_name = 'edu_grade6' [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `edu_course` [ RunTime:0.0589s ]
+SQL: SELECT * FROM `edu_course` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `edu_login` [ RunTime:0.0077s ]
+SQL: SELECT `name` FROM `edu_login` WHERE `user` = '040169' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `edu_login` WHERE `user` = '1317404001' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `edu_login` WHERE `user` = '1317404002' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `edu_login` WHERE `user` = '1317404003' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `edu_login` WHERE `user` = '1317404005' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 126 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 126 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 126 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 126 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 126 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 126 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 126 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 126 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 126 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 126 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 126 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 126 行.
+
+[ 2017-04-12T10:16:32+08:00 ] ::1 /ZH/educational_administration_system/index.php/Teacher/Content/addGrade
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000876s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001761s ]
+SQL: CREATE TABLE `education`.`edu_grade6` ( `id` INT(10) NOT NULL AUTO_INCREMENT , `user` VARCHAR(255) NOT NULL , `name` VARCHAR(255) NOT NULL , `pingshi` FLOAT(50) NOT NULL , `qizhong` FLOAT(50) NOT NULL , `shijian` FLOAT(50) NOT NULL , `qimo` FLOAT(50) NOT NULL , `profession` VARCHAR(255) NOT NULL , `grade` FLOAT(50) NOT NULL , `teacher` VARCHAR(255) NOT NULL , `courseName` VARCHAR(255) NOT NULL , PRIMARY KEY (`id`)) ENGINE = MyISAM CHARACTER SET utf8 COLLATE utf8_general_ci [ RunTime:0.0796s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001370s ]
+
+[ 2017-04-12T10:18:02+08:00 ] ::1 /ZH/educational_administration_system/index.php//Teacher/Index/index/name/%E5%87%8C%E5%85%B4%E5%AE%8F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001430s ]
+SQL: SHOW COLUMNS FROM `edu_info` [ RunTime:0.0227s ]
+SQL: SHOW COLUMNS FROM `edu_login` [ RunTime:0.0072s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `edu_info` WHERE `reader` = '040169' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `edu_info` WHERE `reader` = '040169' ORDER BY id desc LIMIT 0,5   [ RunTime:0.0009s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 18 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 19 行.
+SQL: SELECT `name` FROM `edu_login` WHERE `user` = 'admin' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 18 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 19 行.
+SQL: SELECT `name` FROM `edu_login` WHERE `user` = 'admin' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 18 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 19 行.
+SQL: SELECT `name` FROM `edu_login` WHERE `user` = 'admin' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 18 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 19 行.
+SQL: SELECT `name` FROM `edu_login` WHERE `user` = 'admin' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 18 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 19 行.
+SQL: SELECT `name` FROM `edu_login` WHERE `user` = 'admin' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087857s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087903s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001509s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001589s ]
+
+[ 2017-04-12T10:18:05+08:00 ] ::1 /ZH/educational_administration_system/index.php/Teacher/Content/grade
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000919s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 66 行.
+SQL: SHOW COLUMNS FROM `edu_course` [ RunTime:0.0414s ]
+SQL: SELECT * FROM `edu_course` WHERE `teacherID` = '040169'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `edu_login` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `edu_login`  [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 80 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 82 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 82 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 82 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 80 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 82 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 82 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 82 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 80 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 82 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007979s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008030s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000806s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000837s ]
+
+[ 2017-04-12T10:18:09+08:00 ] ::1 /ZH/educational_administration_system/index.php/Teacher/Content/gradeDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001464s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 93 行.
+SQL: SELECT * FROM information_schema.tables WHERE table_schema = 'education' AND table_name = 'edu_grade6' [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000965s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000999s ]
+
+[ 2017-04-12T10:18:35+08:00 ] ::1 /ZH/educational_administration_system/index.php//Teacher/Index/index/name/%E5%87%8C%E5%85%B4%E5%AE%8F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001464s ]
+SQL: SHOW COLUMNS FROM `edu_info` [ RunTime:0.0404s ]
+SQL: SHOW COLUMNS FROM `edu_login` [ RunTime:0.0319s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `edu_info` WHERE `reader` = '040169' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `edu_info` WHERE `reader` = '040169' ORDER BY id desc LIMIT 0,5   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 18 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 19 行.
+SQL: SELECT `name` FROM `edu_login` WHERE `user` = 'admin' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 18 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 19 行.
+SQL: SELECT `name` FROM `edu_login` WHERE `user` = 'admin' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 18 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 19 行.
+SQL: SELECT `name` FROM `edu_login` WHERE `user` = 'admin' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 18 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 19 行.
+SQL: SELECT `name` FROM `edu_login` WHERE `user` = 'admin' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 18 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 19 行.
+SQL: SELECT `name` FROM `edu_login` WHERE `user` = 'admin' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.089043s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.089093s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001450s ]
+
+[ 2017-04-12T10:18:37+08:00 ] ::1 /ZH/educational_administration_system/index.php/Teacher/Content/grade
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001123s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001180s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 66 行.
+SQL: SHOW COLUMNS FROM `edu_course` [ RunTime:0.0182s ]
+SQL: SELECT * FROM `edu_course` WHERE `teacherID` = '040169'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `edu_login` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `edu_login`  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 80 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 82 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 82 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 82 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 80 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 82 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 82 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 82 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 80 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 82 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+NOTIC: [8] Use of undefined constant courseid - assumed 'courseid' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant stuID - assumed 'stuID' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 85 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006713s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006767s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000757s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000783s ]
+
+[ 2017-04-12T10:18:39+08:00 ] ::1 /ZH/educational_administration_system/index.php/Teacher/Content/gradeDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001342s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 93 行.
+SQL: SELECT * FROM information_schema.tables WHERE table_schema = 'education' AND table_name = 'edu_grade6' [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `edu_course` [ RunTime:0.0238s ]
+SQL: SELECT * FROM `edu_course` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `edu_login` [ RunTime:0.0080s ]
+SQL: SELECT `name` FROM `edu_login` WHERE `user` = '040169' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `edu_login` WHERE `user` = '1317404001' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `edu_login` WHERE `user` = '1317404002' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `edu_login` WHERE `user` = '1317404003' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `edu_login` WHERE `user` = '1317404005' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 126 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 126 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 126 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 126 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 126 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 126 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 126 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 126 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 126 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 126 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 126 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\ContentController.class.php 第 126 行.
+SQL: CREATE TABLE `education`.`edu_grade6` ( `id` INT(10) NOT NULL AUTO_INCREMENT , `user` VARCHAR(255) NOT NULL , `name` VARCHAR(255) NOT NULL , `pingshi` FLOAT(50) NOT NULL , `qizhong` FLOAT(50) NOT NULL , `shijian` FLOAT(50) NOT NULL , `qimo` FLOAT(50) NOT NULL , `profession` VARCHAR(255) NOT NULL , `grade` FLOAT(50) NOT NULL , `teacher` VARCHAR(255) NOT NULL , `courseName` VARCHAR(255) NOT NULL , PRIMARY KEY (`id`)) ENGINE = MyISAM CHARACTER SET utf8 COLLATE utf8_general_ci [ RunTime:0.0877s ]
+SQL: SHOW COLUMNS FROM `edu_grade6` [ RunTime:0.0079s ]
+SQL: INSERT INTO `edu_grade6` (`user`,`name`,`profession`,`teacher`,`courseName`,`pingshi`,`qizhong`,`shijian`,`qimo`,`grade`) VALUES ('1317404001','张豪','计算机','凌兴宏','Java程序设计','0','0','0','0','0') [ RunTime:0.0181s ]
+SQL: INSERT INTO `edu_grade6` (`user`,`name`,`profession`,`teacher`,`courseName`,`pingshi`,`qizhong`,`shijian`,`qimo`,`grade`) VALUES ('1317404002','王舟','计算机','凌兴宏','Java程序设计','0','0','0','0','0') [ RunTime:0.0002s ]
+SQL: INSERT INTO `edu_grade6` (`user`,`name`,`profession`,`teacher`,`courseName`,`pingshi`,`qizhong`,`shijian`,`qimo`,`grade`) VALUES ('1317404003','陈芳','计算机','凌兴宏','Java程序设计','0','0','0','0','0') [ RunTime:0.0003s ]
+SQL: INSERT INTO `edu_grade6` (`user`,`name`,`profession`,`teacher`,`courseName`,`pingshi`,`qizhong`,`shijian`,`qimo`,`grade`) VALUES ('1317404005','周杨','计算机','凌兴宏','Java程序设计','0','0','0','0','0') [ RunTime:0.0002s ]
+

@@ -1,0 +1,174 @@
+[ 2017-04-20T11:43:07+08:00 ] ::1 /ZH/educational_administration_system/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.026441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012676s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.201254s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.201321s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.024250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.024329s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.017922s ]
+INFO: [ app_end ] --END-- [ RunTime:0.018016s ]
+
+[ 2017-04-20T11:43:08+08:00 ] ::1 /ZH/educational_administration_system/index.php/Home/Index/yanzheng
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000544s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000625s ]
+
+[ 2017-04-20T11:44:08+08:00 ] ::1 /ZH/educational_administration_system/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000839s ]
+SQL: SHOW COLUMNS FROM `edu_login` [ RunTime:0.2001s ]
+SQL: SELECT * FROM `edu_login` WHERE `user` = '1317404001' AND `pass` = '123456' LIMIT 1   [ RunTime:0.0301s ]
+NOTIC: [8] Use of undefined constant q - assumed 'q' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Home\Controller\IndexController.class.php 第 36 行.
+NOTIC: [8] Use of undefined constant q - assumed 'q' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Home\Controller\IndexController.class.php 第 38 行.
+NOTIC: [8] Use of undefined constant zhuanye - assumed 'zhuanye' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Home\Controller\IndexController.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Home\Controller\IndexController.class.php 第 41 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000588s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000626s ]
+
+[ 2017-04-20T11:44:08+08:00 ] ::1 /ZH/educational_administration_system/index.php//Home/System/stu_system/name/%E5%BC%A0%E8%B1%AA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000429s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.109551s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.109625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000421s ]
+
+[ 2017-04-20T11:44:09+08:00 ] ::1 /ZH/educational_administration_system/index.php/Home/Content/all_exam
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Home\Controller\ContentController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `edu_login` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `edu_login` WHERE `user` = '1317404001' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `edu_grade18` [ RunTime:0.0880s ]
+SQL: SELECT * FROM `edu_grade18` WHERE `user` = '1317404001' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+NOTIC: [8] Undefined variable: haha D:\xampp1\htdocs\ZH\educational_administration_system\Application\Runtime\Cache\Home\1c915f9f11c60984654ff2895044aa97.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069413s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069503s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000452s ]
+
+[ 2017-04-20T11:44:19+08:00 ] ::1 /ZH/educational_administration_system/index.php/Home/Content/schedule
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001143s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001415s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Home\Controller\ContentController.class.php 第 131 行.
+NOTIC: [8] Use of undefined constant q - assumed 'q' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Home\Controller\ContentController.class.php 第 132 行.
+SQL: SHOW COLUMNS FROM `edu_login` [ RunTime:0.0115s ]
+SQL: SELECT `courseID` FROM `edu_login` WHERE `user` = '1317404001' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `edu_course` [ RunTime:0.0473s ]
+SQL: SELECT `name` FROM `edu_course` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0110s ]
+SQL: SELECT `plan` FROM `edu_course` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `level` FROM `edu_course` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `edu_course` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `plan` FROM `edu_course` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `level` FROM `edu_course` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `edu_course` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `plan` FROM `edu_course` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `level` FROM `edu_course` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063659s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063722s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000615s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000676s ]
+
+[ 2017-04-20T11:45:42+08:00 ] ::1 /ZH/educational_administration_system/index.php//Home/System/stu_system/name/%E5%BC%A0%E8%B1%AA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007998s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008057s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000412s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000453s ]
+
+[ 2017-04-20T11:45:42+08:00 ] ::1 /ZH/educational_administration_system/index.php/Home/Content/all_exam
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000722s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000951s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Home\Controller\ContentController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `edu_login` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `edu_login` WHERE `user` = '1317404001' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `edu_grade18` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `edu_grade18` WHERE `user` = '1317404001' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+NOTIC: [8] Undefined variable: haha D:\xampp1\htdocs\ZH\educational_administration_system\Application\Runtime\Cache\Home\1c915f9f11c60984654ff2895044aa97.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012781s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012884s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000631s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000704s ]
+

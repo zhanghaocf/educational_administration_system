@@ -1,0 +1,174 @@
+[ 2017-02-27T13:56:00+08:00 ] ::1 /ZH/educational_administration_system/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+ERR: 无法加载模块:Css
+
+[ 2017-02-27T13:56:00+08:00 ] ::1 /ZH/educational_administration_system/css/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+ERR: 无法加载模块:Css
+
+[ 2017-02-27T13:56:01+08:00 ] ::1 /ZH/educational_administration_system/img/messageBox.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+ERR: 无法加载模块:Img
+
+[ 2017-02-27T13:56:19+08:00 ] ::1 /ZH/educational_administration_system/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+ERR: 无法加载模块:Css
+
+[ 2017-02-27T13:56:19+08:00 ] ::1 /ZH/educational_administration_system/css/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+ERR: 无法加载模块:Css
+
+[ 2017-02-27T13:56:19+08:00 ] ::1 /ZH/educational_administration_system/js/jquery-3.1.0.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000848s ]
+ERR: 无法加载模块:Js
+
+[ 2017-02-27T13:56:19+08:00 ] ::1 /ZH/educational_administration_system/img/messageBox.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000790s ]
+ERR: 无法加载模块:Img
+
+[ 2017-02-27T13:56:57+08:00 ] ::1 /ZH/educational_administration_system/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+ERR: 无法加载模块:Css
+
+[ 2017-02-27T13:56:57+08:00 ] ::1 /ZH/educational_administration_system/css/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+ERR: 无法加载模块:Css
+
+[ 2017-02-27T13:56:57+08:00 ] ::1 /ZH/educational_administration_system/js/jquery-3.1.0.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+ERR: 无法加载模块:Js
+
+[ 2017-02-27T13:56:57+08:00 ] ::1 /ZH/educational_administration_system/img/messageBox.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001030s ]
+ERR: 无法加载模块:Img
+
+[ 2017-02-27T13:57:43+08:00 ] ::1 /ZH/educational_administration_system/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+ERR: 无法加载模块:Css
+
+[ 2017-02-27T13:57:43+08:00 ] ::1 /ZH/educational_administration_system/js/jquery-3.1.0.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+ERR: 无法加载模块:Js
+
+[ 2017-02-27T13:57:43+08:00 ] ::1 /ZH/educational_administration_system/img/messageBox.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+ERR: 无法加载模块:Img
+
+[ 2017-02-27T13:58:24+08:00 ] ::1 /ZH/educational_administration_system/js/jquery-3.1.0.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+ERR: 无法加载模块:Js
+
+[ 2017-02-27T13:58:24+08:00 ] ::1 /ZH/educational_administration_system/img/messageBox.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+ERR: 无法加载模块:Img
+
+[ 2017-02-27T13:58:58+08:00 ] ::1 /ZH/educational_administration_system/js/jquery-3.1.0.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+ERR: 无法加载模块:Js
+
+[ 2017-02-27T13:58:58+08:00 ] ::1 /ZH/educational_administration_system/img/messageBox.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+ERR: 无法加载模块:Img
+
+[ 2017-02-27T13:59:27+08:00 ] ::1 /ZH/educational_administration_system/js/jquery-3.1.0.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+ERR: 无法加载模块:Js
+
+[ 2017-02-27T13:59:27+08:00 ] ::1 /ZH/educational_administration_system/__public__/img/messageBox.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001011s ]
+ERR: 无法加载模块:__public__
+
+[ 2017-02-27T13:59:46+08:00 ] ::1 /ZH/educational_administration_system/__public__/img/messageBox.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+ERR: 无法加载模块:__public__
+
+[ 2017-02-27T13:59:46+08:00 ] ::1 /ZH/educational_administration_system/Public/js/jquery-3.1.0.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+ERR: 无法加载模块:Public
+
+[ 2017-02-27T14:00:34+08:00 ] ::1 /ZH/educational_administration_system/__public__/img/messageBox.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+ERR: 无法加载模块:__public__
+
+[ 2017-02-27T21:26:49+08:00 ] ::1 /ZH/educational_administration_system/index.php/System/stu_system
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+ERR: 无法加载模块:System
+
+[ 2017-02-27T21:27:01+08:00 ] ::1 /ZH/educational_administration_system/index.php/System/stu_system
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+ERR: 无法加载模块:System
+
+[ 2017-02-27T21:27:03+08:00 ] ::1 /ZH/educational_administration_system/index.php/System/stu_system
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+ERR: 无法加载模块:System
+
+[ 2017-02-27T21:36:22+08:00 ] ::1 /ZH/educational_administration_system/index.php1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000654s ]
+ERR: 无法加载模块:Index
+
+[ 2017-02-27T21:41:09+08:00 ] ::1 /ZH/educational_administration_system/index.php1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+ERR: 无法加载模块:Index
+
+[ 2017-02-27T21:41:47+08:00 ] ::1 /ZH/educational_administration_system/index.php1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+ERR: 无法加载模块:Index
+

@@ -1,0 +1,44 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="/ZH/educational_administration_system/Public/css/bootstrap.min.css"/>
+		<style type="text/css">
+			body{
+				padding-left:82px;
+			}
+			p{
+				margin:0;
+				margin-top:42px;
+			}
+			table{
+				margin-bottom:30px;
+			}
+			td{
+				border:1px solid black;
+				min-width:63px;
+			}
+			a{
+				text-decoration:underline;
+			}
+		</style>
+	</head>
+	<body>
+		<p>	您期末成绩如下。课程名称带（**）的是学位课程。</p>
+		<table>
+			<tr>
+				<td>课程名称</td>
+				<td>学分</td>
+				<td>成绩</td>
+				<td>学分绩点</td>
+				<td>学习性质</td>
+				<td>成绩性质</td>
+				<td>考试性质</td>
+				<td>取得学期</td>
+				<td>备注</td>
+			</tr>
+		</table>
+		<a href="###">点击此处查看学分获取情况和其他所有成绩信息</a>
+	</body>
+</html>

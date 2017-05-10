@@ -1,0 +1,242 @@
+[ 2017-04-29T17:59:58+08:00 ] ::1 /ZH/educational_administration_system/index.php/Teacher/Index/infoFn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+SQL: SHOW COLUMNS FROM `edu_info` [ RunTime:0.0092s ]
+SQL: SHOW COLUMNS FROM `edu_login` [ RunTime:0.0078s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `edu_info` WHERE `reader` = 'admin' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `edu_info` WHERE `reader` = 'admin' ORDER BY id desc LIMIT 0,5   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 41 行.
+SQL: SELECT `name` FROM `edu_login` WHERE `user` = '040003' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 42 行.
+NOTIC: [8] Use of undefined constant total - assumed 'total' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 43 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 41 行.
+SQL: SELECT `name` FROM `edu_login` WHERE `user` = '040003' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 42 行.
+NOTIC: [8] Use of undefined constant total - assumed 'total' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 43 行.
+
+[ 2017-04-29T17:59:58+08:00 ] ::1 /ZH/educational_administration_system/index.php/Teacher/Index/infoFn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+SQL: SHOW COLUMNS FROM `edu_info` [ RunTime:0.0278s ]
+SQL: SHOW COLUMNS FROM `edu_login` [ RunTime:0.0044s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `edu_info` WHERE `reader` = 'admin' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `edu_info` WHERE `reader` = 'admin' ORDER BY id desc LIMIT 0,5   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 41 行.
+SQL: SELECT `name` FROM `edu_login` WHERE `user` = '040003' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 42 行.
+NOTIC: [8] Use of undefined constant total - assumed 'total' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 43 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 41 行.
+SQL: SELECT `name` FROM `edu_login` WHERE `user` = '040003' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 42 行.
+NOTIC: [8] Use of undefined constant total - assumed 'total' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 43 行.
+
+[ 2017-04-29T17:59:59+08:00 ] ::1 /ZH/educational_administration_system/index.php/Teacher/Index/infoFn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+SQL: SHOW COLUMNS FROM `edu_info` [ RunTime:0.0523s ]
+SQL: SHOW COLUMNS FROM `edu_login` [ RunTime:0.0064s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `edu_info` WHERE `reader` = 'admin' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `edu_info` WHERE `reader` = 'admin' ORDER BY id desc LIMIT 0,5   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 41 行.
+SQL: SELECT `name` FROM `edu_login` WHERE `user` = '040003' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 42 行.
+NOTIC: [8] Use of undefined constant total - assumed 'total' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 43 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 41 行.
+SQL: SELECT `name` FROM `edu_login` WHERE `user` = '040003' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 42 行.
+NOTIC: [8] Use of undefined constant total - assumed 'total' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 43 行.
+
+[ 2017-04-29T17:59:59+08:00 ] ::1 /ZH/educational_administration_system/index.php/Teacher/Index/infoFn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000884s ]
+SQL: SHOW COLUMNS FROM `edu_info` [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `edu_login` [ RunTime:0.0485s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `edu_info` WHERE `reader` = 'admin' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `edu_info` WHERE `reader` = 'admin' ORDER BY id desc LIMIT 0,5   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 41 行.
+SQL: SELECT `name` FROM `edu_login` WHERE `user` = '040003' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 42 行.
+NOTIC: [8] Use of undefined constant total - assumed 'total' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 43 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 41 行.
+SQL: SELECT `name` FROM `edu_login` WHERE `user` = '040003' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 42 行.
+NOTIC: [8] Use of undefined constant total - assumed 'total' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 43 行.
+
+[ 2017-04-29T18:00:00+08:00 ] ::1 /ZH/educational_administration_system/index.php/Teacher/Index/infoFn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+SQL: SHOW COLUMNS FROM `edu_info` [ RunTime:0.0106s ]
+SQL: SHOW COLUMNS FROM `edu_login` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `edu_info` WHERE `reader` = 'admin' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `edu_info` WHERE `reader` = 'admin' ORDER BY id desc LIMIT 0,5   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 41 行.
+SQL: SELECT `name` FROM `edu_login` WHERE `user` = '040003' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 42 行.
+NOTIC: [8] Use of undefined constant total - assumed 'total' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 43 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 41 行.
+SQL: SELECT `name` FROM `edu_login` WHERE `user` = '040003' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 42 行.
+NOTIC: [8] Use of undefined constant total - assumed 'total' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 43 行.
+
+[ 2017-04-29T18:02:31+08:00 ] ::1 /ZH/educational_administration_system/index.php/Teacher/Index/infoFn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+SQL: SHOW COLUMNS FROM `edu_info` [ RunTime:0.0651s ]
+SQL: SHOW COLUMNS FROM `edu_login` [ RunTime:0.0069s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `edu_info` WHERE `reader` = 'admin' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `edu_info` WHERE `reader` = 'admin' ORDER BY id desc LIMIT 0,5   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 41 行.
+SQL: SELECT `name` FROM `edu_login` WHERE `user` = '040003' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 42 行.
+NOTIC: [8] Use of undefined constant total - assumed 'total' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 43 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 41 行.
+SQL: SELECT `name` FROM `edu_login` WHERE `user` = '040003' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 42 行.
+NOTIC: [8] Use of undefined constant total - assumed 'total' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 43 行.
+
+[ 2017-04-29T18:02:49+08:00 ] ::1 /ZH/educational_administration_system/index.php/Teacher/Index/infoFn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+SQL: SHOW COLUMNS FROM `edu_info` [ RunTime:0.0176s ]
+SQL: SHOW COLUMNS FROM `edu_login` [ RunTime:0.0069s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `edu_info` WHERE `reader` = 'admin' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `edu_info` WHERE `reader` = 'admin' ORDER BY id desc LIMIT 0,5   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 41 行.
+SQL: SELECT `name` FROM `edu_login` WHERE `user` = '040003' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 42 行.
+NOTIC: [8] Use of undefined constant total - assumed 'total' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 43 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 41 行.
+SQL: SELECT `name` FROM `edu_login` WHERE `user` = '040003' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 42 行.
+NOTIC: [8] Use of undefined constant total - assumed 'total' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 43 行.
+
+[ 2017-04-29T18:03:02+08:00 ] ::1 /ZH/educational_administration_system/index.php/Teacher/Index/infoFn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+SQL: SHOW COLUMNS FROM `edu_info` [ RunTime:0.0219s ]
+SQL: SHOW COLUMNS FROM `edu_login` [ RunTime:0.0083s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `edu_info` WHERE `reader` = 'admin' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `edu_info` WHERE `reader` = 'admin' ORDER BY id desc LIMIT 0,5   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 41 行.
+SQL: SELECT `name` FROM `edu_login` WHERE `user` = '040003' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 42 行.
+NOTIC: [8] Use of undefined constant total - assumed 'total' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 43 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 41 行.
+SQL: SELECT `name` FROM `edu_login` WHERE `user` = '040003' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 42 行.
+NOTIC: [8] Use of undefined constant total - assumed 'total' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 43 行.
+
+[ 2017-04-29T18:03:03+08:00 ] ::1 /ZH/educational_administration_system/index.php/Teacher/Index/infoFn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+SQL: SHOW COLUMNS FROM `edu_info` [ RunTime:0.0097s ]
+SQL: SHOW COLUMNS FROM `edu_login` [ RunTime:0.0099s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `edu_info` WHERE `reader` = 'admin' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `edu_info` WHERE `reader` = 'admin' ORDER BY id desc LIMIT 0,5   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 41 行.
+SQL: SELECT `name` FROM `edu_login` WHERE `user` = '040003' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 42 行.
+NOTIC: [8] Use of undefined constant total - assumed 'total' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 43 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 41 行.
+SQL: SELECT `name` FROM `edu_login` WHERE `user` = '040003' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 42 行.
+NOTIC: [8] Use of undefined constant total - assumed 'total' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 43 行.
+
+[ 2017-04-29T18:04:59+08:00 ] ::1 /ZH/educational_administration_system/index.php/Teacher/Index/infoFn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+SQL: SHOW COLUMNS FROM `edu_info` [ RunTime:0.0145s ]
+SQL: SHOW COLUMNS FROM `edu_login` [ RunTime:0.0063s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `edu_info` WHERE `reader` = 'admin' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `edu_info` WHERE `reader` = 'admin' ORDER BY id desc LIMIT 0,5   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 41 行.
+SQL: SELECT `name` FROM `edu_login` WHERE `user` = '040003' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 42 行.
+NOTIC: [8] Use of undefined constant total - assumed 'total' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 43 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 41 行.
+SQL: SELECT `name` FROM `edu_login` WHERE `user` = '040003' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 42 行.
+NOTIC: [8] Use of undefined constant total - assumed 'total' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 43 行.
+
+[ 2017-04-29T18:04:59+08:00 ] ::1 /ZH/educational_administration_system/index.php/Teacher/Index/infoFn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000450s ]
+SQL: SHOW COLUMNS FROM `edu_info` [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `edu_login` [ RunTime:0.0064s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `edu_info` WHERE `reader` = 'admin' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `edu_info` WHERE `reader` = 'admin' ORDER BY id desc LIMIT 0,5   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 41 行.
+SQL: SELECT `name` FROM `edu_login` WHERE `user` = '040003' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 42 行.
+NOTIC: [8] Use of undefined constant total - assumed 'total' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 43 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 41 行.
+SQL: SELECT `name` FROM `edu_login` WHERE `user` = '040003' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 42 行.
+NOTIC: [8] Use of undefined constant total - assumed 'total' D:\xampp1\htdocs\ZH\educational_administration_system\Application\Teacher\Controller\IndexController.class.php 第 43 行.
+
