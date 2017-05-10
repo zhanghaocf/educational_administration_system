@@ -1,0 +1,87 @@
+header{
+				background-color: #7aa1e6;
+				height:120px;
+				position: relative;
+			}
+			marquee{
+				width:700px;
+				color:white;
+				font-size: 16px;
+			}
+			section{
+				height:540px;
+				min-width:700px;
+				/*background-color: red;*/
+				overflow: hidden;
+			}
+			.nav{
+				width:225px;
+				background-color:#7aa1e6;
+				height: 540px;
+				overflow: auto;
+				float:left;
+			}
+			#personInfo{
+				list-style-type:none;
+				width:200px;
+				background-image:linear-gradient(white,transparent);
+				margin-left:5px;
+				padding:0;
+				padding-top: 5px;
+				/*border:1px solid transparent;*/
+			}
+			#personInfo>li>a{
+				text-decoration: none;
+				display: block;
+				width:190px;
+				height:27px;
+				background-image:linear-gradient(white,#7ba4e0);
+				margin:5px auto 0;
+				border:1px solid #002d96;
+				font-size: 13px;
+				color:#000000;
+				line-height:27px;
+				text-indent:11px;
+				font-weight:bold;
+			}
+			#personInfo>li:nth-child(1)>a{
+				margin:0 auto;
+			}
+			.downJiao{
+				width:15px;
+				float: right;
+				margin-right:8px;
+				margin-top: 5px;
+			}
+			.liList{
+				list-style-type:none;
+				border:1px solid #002d96;
+				width:190px;
+				margin:-1px auto 0;
+				padding:0;
+				padding-left: 1px;
+				padding-right: 1px;
+				padding-bottom: 1px;
+			}
+			.liList>li>a{
+				display: block;
+				line-height: 25px;
+				border:1px solid transparent;
+				margin-top: 1px;
+				color:black;
+				/*text-indent: 5px;*/
+				height:25px;
+			}
+			.liList>li>a:hover{
+				border:1px solid #002d96;
+			}
+			.zhuan{
+				transform: rotate(180deg);
+			}
+			iframe{
+				height:540px;
+				position:absolute;
+				left:225px;
+				top:120px;
+				/*margin-left: 225px;*/
+			}
