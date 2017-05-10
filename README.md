@@ -1,0 +1,2 @@
+# educational_administration_system1
+模仿文正教务系统
